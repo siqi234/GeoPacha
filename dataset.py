@@ -26,3 +26,5 @@ class MyDataset(Dataset):
             image = augmentations["image"]
             mask = augmentations["mask"]
 
+        return image, mask
+
